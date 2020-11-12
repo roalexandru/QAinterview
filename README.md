@@ -13,9 +13,9 @@ Process 2:
 
 
 Resources:
+- demo project : https://github.com/roalexandru/QAinterview/blob/main/DemoQA.zip
 -	https://cloud.uipath.com (signup for community – Orchestrator and Studio)
 -	https://docs.uipath.com/studio
 -	https://docs.uipath.com/orchestrator/
 -	https://docs.uipath.com/orchestrator/docs/about-queues-and-transactions
 -	https://docs.uipath.com/activities/docs/write-csv-file
-
