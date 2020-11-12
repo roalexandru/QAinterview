@@ -2,10 +2,12 @@
 
 Task:
 Using the Community UiPath (Studio + Orchestrator) version create a workflow (or more) that solves the following tasks:
+
 Process 1: 
 -	Navigate to emag.ro in laptops section sorted by the number of reviews (https://www.emag.ro/laptopuri/sort-reviewsdesc/c)
 -	Scrape the top 100 entries (including information about the product name, price, and review score)
 -	Upload every laptop as a transaction in an Orchestrator Queue named “Laptops”
+
 Process 2:
 -	Retrieve the data from the Orchestrator Queue
 -	Find the best 3 laptop by the review score
