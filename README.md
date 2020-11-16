@@ -5,13 +5,13 @@ Using the Community UiPath (Studio + Orchestrator) version create a workflow (or
 
 Process 1: 
 -	Navigate to emag.ro in laptops section sorted by the number of reviews (https://www.emag.ro/laptopuri/sort-reviewsdesc/c)
--	Scrape the top 100 entries (including information about the product name, price, and review score)
+-	Scrape the top 100 entries (including information about the product name, price, etc)
 -	Upload every laptop as a transaction in an Orchestrator Queue named “Laptops”
 
 Process 2:
 -	Retrieve the data from the Orchestrator Queue
--	Find the best 3 laptop by the review score
--	Export the top 3 laptops in a CSV file that contains the laptop name, price and the score
+-	Find the most expensive 3 laptops and compute the average price for all 100 laptops.
+-	Export the top 3 laptops in a CSV file that contains the laptop name, price and URL
 
 
 Resources:
@@ -21,3 +21,4 @@ Resources:
 -	https://docs.uipath.com/orchestrator/
 -	https://docs.uipath.com/orchestrator/docs/about-queues-and-transactions
 -	https://docs.uipath.com/activities/docs/write-csv-file
+- https://docs.uipath.com/studio/docs/extension-for-chrome - extension needed to run automations in Google Chrome
